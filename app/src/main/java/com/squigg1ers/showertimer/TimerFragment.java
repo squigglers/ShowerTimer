@@ -12,14 +12,20 @@ import android.widget.Chronometer;
 public class TimerFragment extends Fragment {
     private View view;
 
+    //bundle item names
     final static String TIMEWHENSTOPPED = "TIMEWHENSTOPPED";
     final static String TIMERPAUSED = "TIMERPAUSED";
+
+    //widgets
     private Chronometer chrono;
     private Button startButton;
     private Button resetButton;
+
+    //useful stuff
     private boolean timerPaused;
     private long timeWhenStopped;
 
+    //brand new activity means time is at 0:00
     public TimerFragment() {
         timerPaused = true;
         timeWhenStopped = 0;

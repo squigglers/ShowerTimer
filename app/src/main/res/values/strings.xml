@@ -9,5 +9,6 @@
     <string name="resume">Resume</string>
     <string name="pause">Pause</string>
     <string name="reset">Reset</string>
+    <string name="title_activity_base">BaseActivity</string>
 
 </resources>
